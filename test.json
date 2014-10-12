@@ -1,0 +1,12 @@
+[
+	{"Domain": "topcoder.com", "Username": "takumi", "Password": "ilovego", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "topcoder.com", "Username": "teru", "Password": "ilovejava", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "topcoder.com", "Username": "teru", "Password": "ilovego", "ExpectingCode": 200, "ShouldAuth": false},
+	{"Domain": "topcoder.com", "Username": "toshi", "Password": "iloveapex", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "appirio.com", "Username": "toshi", "Password": "iloveapex", "ExpectingCode": 200, "ShouldAuth": false},
+	{"Domain": "appirio.com", "Username": "jun", "Password": "ilovetopcoder", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "appirio.com", "Username": "jun", "Password": "iloathetopcoder", "ExpectingCode": 200, "ShouldAuth": false},
+	{"Domain": "appirio.com", "Username": "narinder", "Password": "ilovesamurai", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "appirio.com", "Username": "chris", "Password": "ilovesushi", "ExpectingCode": 200, "ShouldAuth": true},
+	{"Domain": "unknown.com", "Username": "username", "Password": "password", "ExpectingCode": 404, "ShouldAuth": false}
+]
